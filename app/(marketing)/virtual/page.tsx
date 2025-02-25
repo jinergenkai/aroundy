@@ -5,7 +5,7 @@ import "@photo-sphere-viewer/markers-plugin/index.css";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-export function SphereComponent() {
+function SphereComponent() {
   const photoSphereRef = React.useRef<ViewerAPI | null>(null);
   const [clickPosition, setClickPosition] = useState({ longitude: 0, latitude: 0 });
 
@@ -51,9 +51,6 @@ export function SphereComponent() {
         src="/virtual/background_mountain.jpg"
         // defaultZoomLvl={0}
         // littlePlanet={true}
-        // lang={{
-        //   littlePlanetButton: "Little Planet",
-        // }}
         hideNavbarButton={true}
         height={"100vh"}
         width={"100vw"}
