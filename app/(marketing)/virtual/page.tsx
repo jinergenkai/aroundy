@@ -4,6 +4,7 @@ import { allPosts } from "contentlayer/generated"
 import { compareDesc } from "date-fns"
 
 import { formatDate } from "@/lib/utils"
+import PhotoSphereViewer from "./viewer"
 
 export const metadata = {
   title: "Blog",
@@ -17,12 +18,8 @@ export default async function BlogPage() {
     })
 
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
-
-      <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
-
-      </div>
-
+    <div className="">
+      <PhotoSphereViewer imageUrl={"images/view1.jpg"} />
     </div>
   )
 }

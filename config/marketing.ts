@@ -7,7 +7,7 @@ export const marketingConfig: MarketingConfig = {
     //   href: "/#features",
     // },
     {
-      title: "Ảo cảnh",
+      title: "Trải nghiệm",
       href: "/virtual",
     },
     {
