@@ -1136,17 +1136,22 @@
   resolved "https://registry.yarnpkg.com/@panva/hkdf/-/hkdf-1.2.1.tgz#cb0d111ef700136f4580349ff0226bf25c853f23"
   integrity sha512-6oclG6Y3PiDFcoyk8srjLfVKyMfVCKJ27JwNPViuXziFpmdz+MZnZN/aKY0JGXgYuO/VghU0jcOAZgWXZ1Dmrw==
 
-"@photo-sphere-viewer/core@^5.12.1":
-  version "5.12.1"
-  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/core/-/core-5.12.1.tgz#62bffa90726b3280bbb5cdfcea4bf193b4e04487"
-  integrity sha512-aK+SueXdKOr5FQAMwjxswHaa2OZcpWi4tx5P4fjq1vWEDa8PtdaoSdQaAp3Csmthvd9DlfNDUb6c21fTudzM/w==
+"@photo-sphere-viewer/core@5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/core/-/core-5.9.0.tgz#44657d549695730b12a14e8a14b9edd9260d39b0"
+  integrity sha512-Th8S2SbKpKEE5l150Mh0Na+3RirceJL9ioRl+33kE59s0Dx675snGWI7gy/xFKEWsdYOhj9f6xNWZ8MSqs8RhQ==
   dependencies:
-    three "^0.173.0"
+    three "^0.167.0"
 
-"@photo-sphere-viewer/gyroscope-plugin@^5.12.1":
-  version "5.12.1"
-  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/gyroscope-plugin/-/gyroscope-plugin-5.12.1.tgz#d6bbde2c4f20706e02b05684f6e15dd690e50f68"
-  integrity sha512-/WSAvxGYKFWDZp2P3607ZD8Qf+cXHGVDrU2zj++26WH91PmROOPzTumzxbO4mKAVFbPHVyHPujjazoYG+nKFHg==
+"@photo-sphere-viewer/gyroscope-plugin@5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/gyroscope-plugin/-/gyroscope-plugin-5.9.0.tgz#66740e8451cc5e97b7e34ce8395b4a2eaa26c320"
+  integrity sha512-g8sTy532JXk7e2H7AIpdiLew+facw1pbLr04ixDncKf2cjam/2D+K++/m98AptlD0xctiUUZwa759f/m9k5PJA==
+
+"@photo-sphere-viewer/markers-plugin@5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/markers-plugin/-/markers-plugin-5.9.0.tgz#d07dbbbe74ee369a8c5a57d43817c9fb5ecce094"
+  integrity sha512-jNy6avSp5v1WDqsRLWgaXfuNt8cF1EgvjqOv+M+J/BVbCJ2dMDpSM90vQWbNqnizTrrTse21u0+fkkfv7qiNcw==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -2744,7 +2749,7 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-autoprefixer@^10.4.14:
+autoprefixer@^10.4.14, autoprefixer@^10.4.17:
   version "10.4.20"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.20.tgz#5caec14d43976ef42e32dcb4bd62878e96be5b3b"
   integrity sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==
@@ -3994,6 +3999,11 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+
+eventemitter3@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.1.tgz#53f5ffd0a492ac800721bb42c66b841de96423c4"
+  integrity sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==
 
 execa@^4.1.0:
   version "4.1.0"
@@ -6980,6 +6990,14 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-photo-sphere-viewer@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/react-photo-sphere-viewer/-/react-photo-sphere-viewer-6.0.1.tgz#d5c6781cbacc99129be3d2c8b712e32f96d743b4"
+  integrity sha512-m55OrueYMyVno0SVXlBr8EGEy3E5LYU1FOGhEHTwJgx2QL/blMYpkTxpJkHOWQ+h8bgxzpTtjk/e4o1KijBESA==
+  dependencies:
+    autoprefixer "^10.4.17"
+    eventemitter3 "^5.0.1"
+
 react-remove-scroll-bar@^2.3.3, react-remove-scroll-bar@^2.3.7:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz#99c20f908ee467b385b68a3469b4a3e750012223"
@@ -8020,10 +8038,10 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-three@^0.173.0:
-  version "0.173.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.173.0.tgz#e82989961cd2db05768540458c81b29f565be921"
-  integrity sha512-AUwVmViIEUgBwxJJ7stnF0NkPpZxx1aZ6WiAbQ/Qq61h6I9UR4grXtZDmO8mnlaNORhHnIBlXJ1uBxILEKuVyw==
+three@^0.167.0:
+  version "0.167.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.167.1.tgz#3fe4ba2b0a03fd662afe4977a56803d955b61689"
+  integrity sha512-gYTLJA/UQip6J/tJvl91YYqlZF47+D/kxiWrbTon35ZHlXEN0VOo+Qke2walF1/x92v55H6enomymg4Dak52kw==
 
 through2@^4.0.0:
   version "4.0.2"

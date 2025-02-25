@@ -7,6 +7,6 @@ export const siteConfig: SiteConfig = {
   ogImage: "https://tx.shadcn.com/og.jpg",
   links: {
     twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/jinergenkai/cat-me",
+    github: "https://github.com/jinergenkai",
   },
 }

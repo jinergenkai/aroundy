@@ -85,6 +85,13 @@ cp .env.example .env.local
 pnpm dev
 ```
 
+<!-- what i do -->
+## What I learned
+- pexel - free stock photos
+- tailwind css acrylic effect
+  -  ```   <header className="container fixed left-1/2 top-2 z-40 w-full -translate-x-1/2 rounded-full border border-white/20 bg-white/30 backdrop-blur-lg backdrop-saturate-150">```
+-  
+
 ## License
 
 Licensed under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).
