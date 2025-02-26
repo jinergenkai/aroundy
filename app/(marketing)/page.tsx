@@ -76,7 +76,7 @@ export default async function IndexPage() {
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             Dự án Aroundy được xây dựng với các công nghệ mới nhất và được thiết
-            kế để mở rộng. Thỏa sức sáng tạo từ những meme đơn giản đến những tác phẩm nghệ thuật.
+            kế để mở rộng.
           </p>
         </div>
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-5xl md:grid-cols-3">

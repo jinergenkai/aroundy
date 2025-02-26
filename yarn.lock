@@ -1153,6 +1153,11 @@
   resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/markers-plugin/-/markers-plugin-5.9.0.tgz#d07dbbbe74ee369a8c5a57d43817c9fb5ecce094"
   integrity sha512-jNy6avSp5v1WDqsRLWgaXfuNt8cF1EgvjqOv+M+J/BVbCJ2dMDpSM90vQWbNqnizTrrTse21u0+fkkfv7qiNcw==
 
+"@photo-sphere-viewer/virtual-tour-plugin@5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/virtual-tour-plugin/-/virtual-tour-plugin-5.9.0.tgz#13d1b5a960cb8f7b52b85cb1f97cd42fd17fbc20"
+  integrity sha512-a68i3H+k9yuW1uNRURF4o8oZ6hdMp54e5MV5NaQwY5NyqfK28NKPEoG1O85HWglccoXk3K8na3/emegoY3PdPg==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
