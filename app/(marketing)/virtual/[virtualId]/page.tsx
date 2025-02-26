@@ -27,6 +27,9 @@ export default function VirtualTour({ params }) {
       console.log(`${data.rightclick ? 'right ' : ''}clicked at yaw: ${data.yaw} pitch: ${data.pitch}`);
       setClickPosition({ longitude: data.yaw, latitude: data.pitch });
     });
+
+    const gyroscopePlugin = instance.getPlugin(GyroscopePlugin) as GyroscopePlugin;
+    gyroscopePlugin?.start(); 
   };
 
   const plugins = [
@@ -43,13 +46,26 @@ export default function VirtualTour({ params }) {
     }],
   ] as any;
 
+  // function handleGyroscope(e): void {
+  //   const gyroscopePlugin = viewer.current?.getPlugin(GyroscopePlugin) as GyroscopePlugin;
+  //   if (gyroscopePlugin.isEnabled()) {
+  //     gyroscopePlugin.stop();
+  //     // viewer.current?.navbar.getButton('custom-gyroscope-btn').container.classList.remove('enabled');
+  //   }
+  //   else {
+  //     gyroscopePlugin.start();
+  //     // viewer.current?.navbar.getButton('custom-gyroscope-btn').container.classList.add('enabled');
+  //   }
+
+  // }
+
   return (
     <div className="App">
       <ReactPhotoSphereViewer
         ref={photoSphereRef}
         // src="/images/view3.jpg"
         src={`${baseUrl}loader.gif`}
-        touchmoveTwoFingers={true}
+        // touchmoveTwoFingers={true}
         // mousewheelCtrlKey={true}
         navbar={['zoom', 'move', 'caption', 'gyroscope']}
         // defaultZoomLvl={0}
@@ -60,7 +76,7 @@ export default function VirtualTour({ params }) {
         onReady={handleReady}
         plugins={plugins}
       />
-      <Button onClick={() => console.log("aa")} className='fixed bottom-0 left-1/2 mb-4 -translate-x-1/2'>Cảm biến {clickPosition.longitude} {clickPosition.latitude}</Button>
+      {/* <Button onClick={handleGyroscope} className='fixed bottom-0 left-1/2 mb-4 -translate-x-1/2'>Cảm biến {clickPosition.longitude} {clickPosition.latitude}</Button> */}
     </div>
   );
 }
