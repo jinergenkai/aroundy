@@ -6,6 +6,7 @@ import { ReactPhotoSphereViewer, ViewerAPI } from "react-photo-sphere-viewer";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { VirtualTourPlugin } from '@photo-sphere-viewer/virtual-tour-plugin';
+import { GyroscopePlugin } from "@photo-sphere-viewer/gyroscope-plugin";
 
 const baseUrl = 'https://photo-sphere-viewer-data.netlify.app/assets/';
 const caption = 'Cape Florida Light, Key Biscayne <b>&copy; Pixexid</b>';
@@ -29,6 +30,7 @@ export default function VirtualTour({ params }) {
   };
 
   const plugins = [
+    GyroscopePlugin,
     MarkersPlugin,
     // [GalleryPlugin, {
     //   thumbnailSize: { width: 100, height: 100 },
@@ -49,7 +51,7 @@ export default function VirtualTour({ params }) {
         src={`${baseUrl}loader.gif`}
         touchmoveTwoFingers={true}
         // mousewheelCtrlKey={true}
-        navbar='zoom move caption fullscreen'
+        navbar={['zoom', 'move', 'caption', 'gyroscope']}
         // defaultZoomLvl={0}
         // littlePlanet={true}
         hideNavbarButton={true}
